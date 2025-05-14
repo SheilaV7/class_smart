@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import React from "react";
 
 export function ProductCard({ product }) {
   const navigate = useNavigate();
